@@ -1,0 +1,74 @@
+# ROS 2 / colcon build outputs
+build/
+install/
+log/
+.colcon/
+
+# Python cache and test outputs
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# C/C++ build artifacts
+*.o
+*.a
+*.so
+*.d
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Large model and inference artifacts
+weights/
+**/weights/
+*.weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+*.cfg.backup
+
+# Archives and backups
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*backup*
+*Backup*
+*BACKUP*
+*copy*
+*Copy*
+*COPY*
+*(copy)*
+*(another copy)*
+
+# Logs and runtime outputs
+*.log
+logs/
+*.bag
+*.db3
+rosbag2_*/
+
+# Local databases and route captures
+*.sqlite
+*.sqlite3
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local-only metadata
+.agents/
+.codex/
